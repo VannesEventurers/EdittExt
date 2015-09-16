@@ -9,6 +9,7 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     private EditText edittext;
+    // Added a new line
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-        
+
     }
 
 }
